@@ -1,0 +1,14 @@
+{
+  "name": "practica4-dwes",
+  "version": "1.0.0",
+  "description": "practica 4 dwes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "asantosb",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^4.3.1"
+  }
+}
