@@ -13,6 +13,8 @@ Especie
 Género
 Casa
 Año de nacimiento
+
+
 3_ Encima de la tabla pondremos 5 botones que harán respectivas llamadas al servidor:
 
 Mostrar todos: mostrará todos los registros de la base de datos.
@@ -20,6 +22,8 @@ Filtro 1: Mostrar todos los personajes cuyo atributo "species" tenga como valor 
 Filtro 2: Mostrar todos los personajes cuyo atributo "yearOfBirth" sea anterior a 1979.
 Filtro 3: Mostrar todos los personajes cuyo atributo "wood" de la propiedad "wand" sea "holly".
 Filtro 4: Mostrar todos los personajes que estén vivos (propiedad "alive" igual a true) y además sean estudiantes (propiedad "hogwartsStudent" igual a true).
+
+
 4_ Añada una columna a la tabla con un botón de "Borrar". Si pulsamos el botón de esa fila, borrará el documento correspondiente de la base de datos mediante otra llamada al servidor mediante AJAX. Mostrará un mensaje de confirmación cuando se haya borrado (una alerta de Bootstrap).
 
 5_ Añada debajo de la tabla un formulario para crear un nuevo personaje. El formulario tendrá todos los campos (el campo imagen se rellenará con una URL). El formulario permitirá guardar un nuevo registro y tras guardarlo mostrará un mensaje de OK (una alerta de Bootstrap) y aparecerá el nuevo registro en la tabla. Los campos obligatorios serán:
